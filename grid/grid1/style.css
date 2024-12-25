@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    background-color: #444444;
+    color: white;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    font-size: 3rem;
+    height: 120px;
+    display: flex;
+    align-items: center;  
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: auto auto auto; 
+}
+
+.A{
+    grid-column: span 2;
+}
+.B{
+    grid-column: span 2;
+}
+.C{
+    grid-column: span 1;
+}
+.D{
+    grid-column: span 3;
+}
+.E{
+    grid-column: span 4;
+}
